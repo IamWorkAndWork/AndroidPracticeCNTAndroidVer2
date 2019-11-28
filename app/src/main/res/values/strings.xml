@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CNTAndroidVer2</string>
+    <string name="title_tab1">Tab1</string>
+    <string name="title_tab2">Tab2</string>
+    <string name="title_tab3">Tab3</string>
+    <string name="title_tab4">Tab4</string>
+    <string name="error_loading_data_from_server">Error Loading Data From Server</string>
+    <string name="start_activity_b_for_result">Start Activity B For Result</string>
+    <string name="start_service">Start Service</string>
+    <string name="bind_service">Bind Service</string>
+    <string name="activityBTitle">Activity B</string>
+    <string name="start_service_success">Start Service Success!!!</string>
+    <string name="bind_service_success">Bind Service Success!!</string>
+    <string name="save_datas">Save Datas</string>
+    <string name="start_a_thread">Start a Thread</string>
+    <string name="i_am_singleton">I am singleton</string>
+    <string name="read_datas">Read Datas</string>
+    <string name="name_show">Name : %s</string>
+    <string name="save_name_success">Save Name Success!</string>
+</resources>

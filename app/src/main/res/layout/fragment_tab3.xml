@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="By SharedPreferences"
+            android:textAppearance="@style/txtTitle">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/tab3BtSaveDatas"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bt_background_blue_curv"
+            android:text="@string/save_datas"
+            android:textAllCaps="false"
+            android:textAppearance="@style/txtButton"></Button>
+
+        <Button
+            android:id="@+id/tab3BtReadDatas"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bt_background_blue_curv"
+            android:text="@string/read_datas"
+            android:textAllCaps="false"
+            android:textAppearance="@style/txtButton"></Button>
+
+
+        <TextView
+            android:id="@+id/tab3TxtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Name :"
+            android:textAppearance="@style/txtRating">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/tab3BtSingleton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bt_background_blue_curv"
+            android:text="Singleton"
+            android:textAllCaps="false"
+            android:textAppearance="@style/txtButton"></Button>
+
+        <Button
+            android:id="@+id/tab3BtStartThread"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bt_background_blue_curv"
+            android:text="@string/start_a_thread"
+            android:textAllCaps="false"
+            android:textAppearance="@style/txtButton"></Button>
+
+
+    </LinearLayout>
+</LinearLayout>
