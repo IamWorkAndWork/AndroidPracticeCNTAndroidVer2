@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimal-ui,initial-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>Test H5-js And native</title>
+    <style type="text/css">
+      a {
+        text-decoration: none;
+      }
+      a.blue-a {
+        color: #00ACF5
+      }
+      a.red-a {
+        color: #CD3620
+      }
+      a.green-a {
+        color: #5AB864
+      }
+      a.orange-a {
+        color: #FF6700
+      }
+    </style>
+    <script>
+      function sendtoNative(){
+        // alert(".....>>>> ");
+        test.hello("i come from Page !");
+      }
+    </script>
+  </head>
+
+  <body>
+    <p> This is a Test Page !</p>
+    <span>This Page's url is <a href="http://34.82.250.142/temp/testjs.html">http://34.82.250.142/temp/testjs.html</a> </span>
+    <p><button id="sendmsg" onclick="sendtoNative();" style="font-size: 15px;">Click me -> Send Message to Native App</button></p>
+    
+  </body>
+</html>
